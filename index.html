@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Christian Ross // Version Control System // May 21, 2019</h1>
+<div id="chart">
+    <img src="images/chart.jpg" alt="chart">
+    <p>https://image.slidesharecdn.com/gitandgithubworkflows-141023162202-conversion-gate01/95/git-and-github-workflows-12-638.jpg?cb=1414117717</p>
+</div>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt update</pre>
+        <p style="text-indent: 10px">Checking for outdated software/new versions for software.</p>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt install git</pre>
+        <p style="text-indent: 10px">Intalls GIT into the computer.</p>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git --version</pre>
+        <p style="text-indent: 10px">Checking that our version installed is the latest and greatest.</p>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.name &quot;rossChristian&quot;</pre>
+        <p style="text-indent: 10px">Sets the global to contain the value user, and in that the value name which is set to rossChristian</p>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.email &quot;ross.christian010302@gmail.com&quot;</pre>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --list
+        user.name=rossChristian
+        user.email=ross.christian010302@gmail.com
+    </pre>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr</b></font>$ git init</pre>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr</b></font>$ ll</pre>
+
+    <p style="text-indent: 10px">Lists all directories in the current directory</p>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr</b></font>$ cd .git</pre>
+
+    <p>Changes directory to go insided the .git folder</p>
+
+    <hr> <hr>
+
+    <h3>Today is Thursday May 23</h5>
+
+    <hr>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr</b></font>$ rm -rf .git</pre>
+        <p>Force removes .git and its contents. Do this when your tracking is an absolute catastrophe, and do git init again.</p>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr</b></font>$ git help</pre>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr/projects/vcs</b></font>$ git status</pre>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr/projects/vcs</b></font>$ git add -A</pre>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr/projects/vcs</b></font>$ git commit -m &quot;Initial commit&quot;</pre>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr/projects/vcs</b></font>$ git log</pre>
+    
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr/projects/vcs</b></font>$ git diff</pre>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr/projects/vcs</b></font>$ touch .gitignore</pre>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr/projects/vcs</b></font>$ git reset</pre>
+        <p style="text-indent: 10px">Removes selections from the staging area. If no file is specified after reset, it will be clear all files from staging.</p>
+
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/christianr/projects/vcs</b></font>$ touch .gitignore</pre>
+    
+
+</body>
+</html>
